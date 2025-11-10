@@ -243,13 +243,13 @@ export default function AuthorDetailPage() {
               {author.nationality && (
                 <div>
                   <p className="text-sm text-gray-500">Nacionalidad</p>
-                  <p className="font-medium">{author.nationality}</p>
+                  <p className="font-bold text-gray-900">{author.nationality}</p>
                 </div>
               )}
               {author.birthYear && (
                 <div>
                   <p className="text-sm text-gray-500">Año de Nacimiento</p>
-                  <p className="font-medium">{author.birthYear}</p>
+                  <p className="font-bold text-gray-900">{author.birthYear}</p>
                 </div>
               )}
             </div>

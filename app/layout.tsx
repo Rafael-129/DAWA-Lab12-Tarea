@@ -58,7 +58,7 @@ export default function RootLayout({
         <main className="min-h-screen">
           {children}
         </main>
-        <footer className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 border-t-4 border-white mt-12">
+        <footer className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 shadow-lg">
           <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
             <p className="text-center text-white text-sm font-medium">
               © 2025 Sistema de Biblioteca - Desarrollado con ❤️ usando Next.js y Prisma
